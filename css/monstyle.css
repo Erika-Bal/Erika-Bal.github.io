@@ -154,3 +154,37 @@ h5 {
     
 }
 
+/* Media Query pour les petits écrans */
+@media screen and (max-width: 576px) {
+    .masthead-subheading {
+        font-size: 20px;
+    }
+
+    .masthead-heading {
+        font-size: 30px;
+    }
+
+    .glow-on-hover {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .portfolio-caption-heading,
+    .portfolio-caption-subheading {
+        font-size: 16px;
+    }
+
+    .timeline-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .timeline-panel {
+        width: 100%;
+    }
+    .container-about{
+
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
+}
