@@ -154,4 +154,15 @@ h5 {
     
 }
 
+.container-about {
+    width: 60%;
+    margin: auto;
+}
 
+/* Styles pour les écrans de petite taille (moins de 600px) */
+@media screen and (max-width: 600px) {
+    .container-about {
+        width: 100%;
+        padding: 10px;
+    }
+}
